@@ -17,9 +17,9 @@ body {
     position: relative;
 }
 
-.slider {
+/* .slider {
     position: absolute;
-}
+} */
 
 .navwrapper {
     height: 5rem;
@@ -89,19 +89,15 @@ main {
 }
 
 /* HOVER BUTTON FOR NAV BAR ENDS */
-.slider {
-    position: relative;
-    background-color: rgb(56, 56, 56);
-    height: 39rem;
-    width: 100%;
-    margin-top: 0px;
-    margin-bottom: 10%;
-}
+
 
 .sl-tg {
     position: absolute;
-    width: 40rem;
+    width: 50%;
+    height: 100%;
 
+    
+    
 }
 
 #h-tg1 {
@@ -109,11 +105,11 @@ main {
     width: fit-content;
     /* color: #000524;
     font-size: 68px; */
-    color: #ffffff;
-    text-shadow: 10px 10px 7px black;
+    color: #1d1d1d;
+  
     font-size: 78px;
     margin-top: 15%;
-    margin-left: 20%;
+    margin-left: 7%;
     font-family: "KUMBH SANS", serif;
     font-optical-sizing: auto;
     font-weight: 600;
@@ -150,25 +146,17 @@ main {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
 .img-div-sl {
-    width: 100%;
-    height: 48rem;
-
+    width: 50%;
+    overflow-x: hidden;
+     overflow-y: hidden;
+    background-color: black;
 }
 
 #img-div-sl1 {
-    height: 49rem;
+    height: 100%;
     width: 100%;
+
 }
 
 /* contains headings and paragraphs STARTS */
@@ -315,14 +303,23 @@ main {
 /* TESTER CODE */
 /* slider buttons */
 .slider {
+    display: flex;
     position: relative;
+    width: 100%;
+}
+.slpart{
+    display: block;
+    width: 50%;
+    height: 30rem;
+    overflow-y: hidden;
+
 }
 
 .btn-sl-main {
     position: absolute;
     display: inline-block;
     margin-top: 21rem;
-    margin-left: 130px;
+    margin-left: 70px;
 }
 
 .btn-01-sl,
@@ -939,8 +936,6 @@ body {
     position: relative;
     border-radius: 0% 0 20% 0;
 
-
-
 }
 
 #bg-img-cn {
@@ -1161,7 +1156,7 @@ body {
     display: flex;
     height: 35%;
     width: 100%;
-    background-color: #a5cfff;
+    background-color: #8fff80;
     padding: 0 0 2.6% 0%;
     justify-content: space-between;
     opacity: 0;
@@ -1232,39 +1227,16 @@ body {
     margin: 7% 0 0 15%;
     text-align: center;
 }
+.frames{
+    width: 100%;
+    height: 80vw;
+    padding: 0 0.8% 0 0.8%;
+}
 
 /* CSS FOR BEFORE PAGE 2 */
 
 /* MEDIA QUERIES FOR THE PAGE */
-@media screen and (min-width: 2560px) {
-    .slider {
-        height: 90rem;
-    }
 
-    .sl-tg {
-        width: 79rem;
-    }
-
-    #h-tg1 {
-        font-size: 140px;
-    }
-
-    .btn-sl-main {
-        margin-top: 38rem;
-        margin-left: 260px;
-    }
-
-    .btn-01-sl,
-    .btn-02-sl {
-        background-color: #022148;
-        color: white;
-        height: 90px;
-        width: 270px;
-        font-size: 30px;
-
-    }
-
-}
 
 /* Resolving Mobile code for Desktop code that dons't hurt desktop */
 .m-vision {
