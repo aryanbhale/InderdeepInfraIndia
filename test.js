@@ -50,3 +50,5 @@ pobj1.forEach(card => p.observe(card));
 pobj2.forEach(card => p.observe(card));
 
 
+
+
