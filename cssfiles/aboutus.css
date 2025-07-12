@@ -1,13 +1,14 @@
 
 html , body{
-    height: 100%;
+    height: 100vh;
     width: 100%;
+    
     
     
 }
 .aboutuswrapper{
     width: 100%;
-    height: 75%;
+    height: 100vh;
 }
 
 .hero-sec{
@@ -399,6 +400,18 @@ label{
     margin: 0 0 0 15%;
     display: flex;
     flex-direction: column ;
+}
+.sections-wrp{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+.sections-main{
+    width: 100%;
+    height: 100vh;
+    
+   
+
 }
 
 .m-vision,.sub-sec,.sub-sec-02,#side-image-sub-sec{

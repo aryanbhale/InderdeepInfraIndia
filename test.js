@@ -48,7 +48,3 @@ const p = new IntersectionObserver(entries => {
 pobj.forEach(button => p.observe(button));
 pobj1.forEach(card => p.observe(card));
 pobj2.forEach(card => p.observe(card));
-
-
-
-
