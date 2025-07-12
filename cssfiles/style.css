@@ -1595,12 +1595,16 @@ body {
     }
 
     .m-fotter-main {
+        width: 100%;
         height: max-content;
     }
 
     #ft-lg-main {
         display: flex;
-        margin: 0 0 0 13%;
+        margin: 0 0% 0 0%;
+        width: 100%;
+
+        
     }
 
     .fm-social {
