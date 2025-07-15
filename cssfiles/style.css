@@ -99,6 +99,30 @@ main {
     width: 50%;
     height: 100%;
 }
+.contact-refrals {
+            position: fixed;
+            top: 0%;
+            width: 100%;
+            z-index: 1040;
+            /* slightly lower than navbar */
+            height: fit-content;
+            background-color: #000070;
+            padding-left: 10px;
+        }
+        
+        .navbar {
+            position: fixed;
+            top: 0;
+            /* Push below the .contact-refrals */
+            width: 100%;
+            z-index: 1050;
+        }
+        .fixed-top {
+            position: fixed;
+            top: 5% !important;
+            width: 100%;
+            z-index: 1050;
+        }
 
 .h-tg1 {
     border-radius: 4%;
@@ -336,6 +360,7 @@ main {
     /* background-image: url(/sections/assets/css/images/dark-bl.svg); */
     background: #d1ffb5;
     background: linear-gradient(180deg, rgba(209, 255, 181, 0.45) 34%, rgba(255, 255, 255, 0.75) 98%);
+    margin: 5% 0 0 0;
 }
 .videomain{
     border-radius: 0% 0% 0% 30%;

@@ -89,7 +89,7 @@ body {
     z-index: 2;
     position: absolute;
     width: 47%;
-    font-family: "FIRA SANS";
+    font-family: "KUMBH SANS";
     font-weight: 700;
     font-size: 69px;
     color: white;
@@ -147,8 +147,8 @@ body {
     left: 48%;
     z-index: 2;
     position: absolute;
-    width: 68%;
-    font-family: "FIRA SANS";
+    width: 72%;
+    font-family: "KUMBH SANS";
     font-weight: 700;
     font-size: 69px;
     color: white;
@@ -282,7 +282,11 @@ body {
     width: 70%;
     padding: 0 0 0 3%;
 }
-
+.hov-bx-p-tg,.hov-bx-h2-tg,.hov-bx-h3-tg{
+    width: 95%;
+    font-family: "playfair display";
+    font-weight: 600;
+}
 .card-button {
     text-decoration: none !important;
     background-color: rgb(255, 255, 255);
