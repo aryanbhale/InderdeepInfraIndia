@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="cssfiles/style.css">
+    <link rel="stylesheet" href="cssfiles/abtus.css">
+    <script defer src="js/test.js"></script>
+
+
+    <!-- Bootstrap 5.3.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google Fonts (Fira Sans, Kumbh Sans, DM Serif Text) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Fira+Sans:ital,wght@0,100..900;1,100..900&family=Kumbh+Sans:wght@100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/logo-removebg-preview1 - Copy.png" type="image/x-icon">
+
+    <!-- JS -->
+    <script src="script.js"></script>
+    <title>Eagle Infra India | Ongoing Projects </title>
+</head>
+<style>
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+        position: absolute;
+        margin-top: 15%;
+        border-radius: 1.2% 0 10% 10%;
+        border: 0;
+        z-index: 1;
+        color: gray;
+        background-color: #f7f7f7;
+
+    }
+
+    .nav-item.dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0;
+
+        /* Removes default spacing */
+
+    }
+</style>
+
+<style>
+    /* Custom fade effect */
+    .carousel-item {
+        /* transition: 0.8s; */
+        transition: opacity 0.5s ease-in-out;
+    }
+
+    .carousel-inner .active {
+
+        opacity: 1 !important;
+    }
+
+    .carousel-item {
+        opacity: 0;
+    }
+
+    .carousel {
+        background-color: black;
+        height: 39rem;
+    }
+
+    .carousel-inner {
+        opacity: 80%;
+        height: 39rem;
+    }
+</style>
+
+<body>
+    <div class="contact-refrals" style="color: white; font-family: 'kumbh sans'; font-size: 17px;">
+        Connect With Us
+        <a target="_blank" href="https://www.linkedin.com/company/eagle-infra-india-limited/posts/?feedView=all"><i
+                class="fa-brands fa-linkedin" style="color: #ffffff; 
+        margin: 0.5% 0 0 2%;"></i></a>
+        <a target="_blank" href="https://www.instagram.com/eaglethanestrikers/"><i class="fa-brands fa-instagram" style="color: #ffffff; 
+        margin: 0.5% 0 0 2%;"></i></a>
+        <a target="_blank" href="https://x.com/EagleInfra_ORR"><i class="fa-brands fa-twitter" style="color: #ffffff; 
+        margin: 0.5% 0 0 2%;"></i></a>
+        <a target="_blank" href="https://www.youtube.com/@eagleinfraindialtdtouching5776"><i
+                class="fa-brands fa-youtube" style="color: #ffffff; 
+        margin: 0.5% 0 0 2%;"></i></a>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html" style="height: 64px;">
+                <img src="img/logo-removebg-preview.png" alt="Logo" style="height: 65px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"
+                            style="padding-left: 2.3rem; font-weight: 600; color: black;">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html"
+                            style="padding-left: 2.3rem; font-weight: 600; color: rgb(0, 0, 0);">About us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle hover" href="project.html" id="navbar-Dropdown" role="button"
+                            style="padding-left: 2.3rem; font-weight: 600; color: black;">Verticals</a>
+
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="ongoingprojects.html">Ongoing Projects</a></li>
+                            <li><a class="dropdown-item" href="completedprojects.html">Delivered Projects</a></li>
+                        </ul>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="clients.html"
+                            style="padding-left: 2.3rem; font-weight: 600; color: black;">Client's</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="careers.html"
+                            style="padding-left: 2.3rem; font-weight: 600; color: black;">Career's</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="enquiry.html"
+                            style="padding-left: 2.3rem; font-weight: 600;color: black;">Enquiry</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactus.html"
+                            style="padding-left: 2.3rem; font-weight: 600; color: black;">Contact Us</a>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- M-VISION FOR SMALLER SCREENS -->
+    <div class="m-vision1">
+        <!-- <div class="redirect">
+            <a id="home" href="index.html">Home</a>
+            <i class="fa-solid fa-greater-than"></i>
+            <a id="home" href="project.html">Verticals</a>
+        </div> -->
+        <div class="carousel-slider">
+            <div id="eagleMobileCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel"
+                style="height: 70vh;">
+                <div class="carousel-inner" style="height: 70vh;">
+                    <div class="carousel-item active">
+                        <img src="img/completedprojects.png" class="d-block w-100" alt="Slide 1"
+                            style="height: 100vh; object-fit: cover;">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="img/2.png" class="d-block w-100" alt="Slide 2"
+                            style="height: 100vh; object-fit: cover;">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="img/3.png" class="d-block w-100" alt="Slide 3"
+                            style="height: 100vh; object-fit: cover;">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/4.png" class="d-block w-100" alt="Slide 3"
+                            style="height: 100vh; object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+            <div class="ovrly active">
+                <h1 class="ovrly-text">Our Verticals</h1>
+                <h3 class="ovrly-text" id="ovrl-h3">Decades of Excellence Across Indias Core Development Sectors.</h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- ABOUT US MAIN CONTENT STARTS-->
+    <div class="projectswrapper">
+        <!-- <img id="abus-sl-img" src="img/img6.webp" alt=""> -->
+        <!-- <div class="overlay-h2-tg">
+            <h2 id="ovrly-h2">Verticals | </h2>
+
+            <div class="text-container">
+                <h2 class="text-slide active ">Road Projects</h2>
+                <h2 class="text-slide ">Water Projects</h2>
+                <h2 class="text-slide">Metro Projects</h2>
+            </div>
+        </div> -->
+
+        <div id="fadeCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5200">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/ongoingprojects.png" class="d-block w-100" alt="Slide 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/2.png" class="d-block w-100" alt="Slide 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/3.png" class="d-block w-100" alt="Slide 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/4.png" class="d-block w-100" alt="Slide 3">
+                </div>
+            </div>
+        </div>
+    </div>
+    <h1 id="ab-sd-tx-htg">Projects Ongoing</h1>
+
+    <div class="project-pane" id="projectpane">
+        <div class="filters">
+            <div class="filter-buttons">
+                <h4 class="fl-heads">Filter By Status</h4>
+                <button class="bt-p"><a class="bt-p-a" href="ongoingprojects.html#carouselinner">Ongoing
+                        Projects</a></button>
+                <button class="bt-p"><a class="bt-p-a" href="completedprojects.html#carouselinner">Completed
+                        Projects</a></button>
+            </div>
+            <div class="filter-buttons" id="lower-filters">
+                <h4 class="fl-heads">Filter By Category</h4>
+                <button class="bt-p" onclick="filterCards('water'); setActive(this)">Water & Sewage Treatment</button>
+                <button class="bt-p" onclick="filterCards('highway'); setActive(this)">Highways</button>
+                <button class="bt-p" onclick="filterCards('mining'); setActive(this)">Mining</button>
+                <button class="bt-p" onclick="filterCards('metro'); setActive(this)">Metro</button>
+                <button class="bt-p" onclick="filterCards('all'); setActive(this)">Clear Filters</button>
+            </div>
+        </div>
+        <div id="card-Container">
+            <div class="majorcards" data-category="completed">
+                <div class="card-box" data-category="highway">
+                    <img class="image-adjust" id="ld-lu" src="img/Road Connectivity Across Yavatmal District.jpeg"
+                        alt="">
+                    <div class="partition">
+                        <h2 class="hov-bx-h2-tg">Comprehensive Road Connectivity Across Yavatmal District</h2>
+                        <h3 class="hov-bx-h3-tg">Enhancing regional mobility through multi-town highway development
+                            works</h3>
+                        <p class="hov-bx-p-tg">This road project interlinks various strategic towns in Yavatmal,
+                            including Shembal Pimpari, Gunj, Mahur, Darwha, and Manora. It boosts accessibility,
+                            facilitates smoother logistics, and supports rural-urban trade development across
+                            Maharashtra’s interior road networks.</p>
+                        <a href="#"> <button class="card-button">Read More</button></a>
+                    </div>
+                </div>
+                <div class="card-box" data-category="highway">
+                    <img class="image-adjust" id="ld-lu"
+                        src="img/NH-6 Amravati–Chikhli Package II Highway Expansion.jpg" alt="">
+                    <div class="partition">
+                        <h2 class="hov-bx-h2-tg">NH-6 Amravati Chikhli Package II Highway Expansion</h2>
+                        <h3 class="hov-bx-h3-tg">Completing four-lane infrastructure between Kurankhed and Chikhli</h3>
+                        <p class="hov-bx-p-tg">With a budget of ₹545.61 Cr, this NH-6 expansion ensures seamless
+                            movement across key industrial belts. The work enhances freight efficiency and regional
+                            economic activity, serving as a critical artery between Amravati and Chikhli under national
+                            connectivity goals.</p>
+                        <a href="#"> <button class="card-button">Read More</button></a>
+                    </div>
+                </div>
+                <div class="card-box" data-category="mining">
+                    <img class="image-adjust" src="img/OB Removal for UKNI Deep OCM, Wani Area.jpeg" alt="">
+                    <div class="partition">
+                        <h2 class="hov-bx-h2-tg">OB Removal for UKNI Deep OCM, Wani Area</h2>
+                        <h3 class="hov-bx-h3-tg">Large-scale overburden removal for sustainable coal extraction</h3>
+                        <p class="hov-bx-p-tg">Western Coalfields Ltd. undertook a high-value ₹824.84 Cr project to
+                            remove overburden in the UKNI Deep OCM. The work boosts mining productivity and safety while
+                            supporting Maharashtra’s energy and industrial needs through improved coal excavation
+                            efficiency.</p>
+                        <a href="#"> <button class="card-button">Read More</button></a>
+                    </div>
+                </div>
+                <div class="card-box" data-category="mining">
+                    <img class="image-adjust" src="img/OB Removal for UKNI Deep OCM, Wani Area.jpeg" alt="">
+                    <div class="partition">
+                        <h2 class="hov-bx-h2-tg">OB Removal at Inder-Kamptee Deep OCM, Nagpur</h2>
+                        <h3 class="hov-bx-h3-tg">Securing raw fuel supply through targeted mining excavation</h3>
+                        <p class="hov-bx-p-tg">This ₹232.63 Cr overburden removal work at Inder-Kamptee supports
+                            uninterrupted coal supply. Operated by WCL, the project ensures optimized extraction from
+                            the Nagpur region, fostering energy security and economic growth in surrounding industrial
+                            corridors.</p>
+                        <a href="#"> <button class="card-button">Read More</button></a>
+                    </div>
+                </div>
+                <div class="card-box" data-category="water">
+                    <img class="image-adjust" src="img/Yavatmal AMRUT Scheme.jpg" alt="">
+                    <div class="partition">
+                        <h2 class="hov-bx-h2-tg"> Yavatmal Underground Drainage Under AMRUT Scheme</h2>
+                        <h3 class="hov-bx-h3-tg">Modern urban drainage improving sanitation and public hygiene</h3>
+                        <p class="hov-bx-p-tg">Executed under Maharashtra Jeevan Pradhikaran, this ₹195.21 Cr AMRUT
+                            mission project modernizes Yavatmals underground sewerage infrastructure. It ensures better
+                            waste management, reduces waterlogging risks, and enhances urban quality of life with
+                            long-term sanitation solutions.</p>
+                        <a href="#"> <button class="card-button">Read More</button></a>
+                    </div>
+                </div>
+                <div class="card-box" data-category="metro">
+                    <img class="image-adjust" src="img/mumbai_metro_line_4_7bed6ae7bb.webp" alt="">
+                    <div class="partition">
+                        <h2 class="hov-bx-h2-tg">Metro Station Construction Along SEEPZ–Powai Corridor</h2>
+                        <h3 class="hov-bx-h3-tg">Elevated metro infrastructure for next-gen public mobility</h3>
+                        <p class="hov-bx-p-tg">The ₹372 Cr project by DMRC includes five elevated stations to improve
+                            last-mile connectivity in Mumbai’s suburban zones. It advances multimodal integration,
+                            reduces traffic congestion, and supports eco-friendly transit near SEEPZ, Powai Lake, and
+                            surrounding neighborhoods.
+
+                        </p>
+                        <a href="#"> <button class="card-button">Read More</button></a>
+                    </div>
+                </div>
+                <div class="card-box" data-category="water">
+                    <img class="image-adjust" src="img/STP.jpg" alt="">
+                    <div class="partition">
+                        <h2 class="hov-bx-h2-tg">Sewerage Infrastructure for BNCMC Phase II, Bhiwandi</h2>
+                        <h3 class="hov-bx-h3-tg">Design, build, operate model for integrated waste management</h3>
+                        <p class="hov-bx-p-tg">At ₹427.98 Cr, this turnkey project in Bhiwandi ensures streamlined
+                            underground sewerage for expanding urban areas. It includes operation & maintenance
+                            services, improving public health, stormwater control, and smart city alignment for the
+                            Bhiwandi-Nizampur municipal region.</p>
+                        <a href="#"> <button class="card-button">Read More</button></a>
+                    </div>
+                </div>
+                <div class="card-box" data-category="highway">
+                    <img class="image-adjust" src="img/NH-66 (Parshuram Ghat–Arawali) Upgradation Project.jpg" alt="">
+                    <div class="partition">
+                        <h2 class="hov-bx-h2-tg">NH-66 (Parshuram Ghat–Arawali) Upgradation Project
+                        </h2>
+                        <h3 class="hov-bx-h3-tg">Enhancing national highway safety and travel time efficiency</h3>
+                        <p class="hov-bx-p-tg">With ₹302.5 Cr investment by MoRTH, this road rehabilitation between
+                            Parshuram Ghat and Arawali ensures better slope protection and smoother travel. It’s part of
+                            the strategic coastal highway upgrade for safer transport across Maharashtra’s western
+                            corridor.</p>
+                        <a href="#"> <button class="card-button">Read More</button></a>
+                    </div>
+                </div>
+                <div class="card-box" data-category="water">
+                    <img class="image-adjust" src="img/Water Supply & Water Projects.jpg" alt="">
+                    <div class="partition">
+                        <h2 class="hov-bx-h2-tg">Water Supply Scheme for Uddhat & Allied Villages</h2>
+                        <h3 class="hov-bx-h3-tg">Rural water security across Pune’s Indapur Taluka region</h3>
+                        <p class="hov-bx-p-tg">This project connects Uddhat, Sansar, Walchandnagar, and surrounding
+                            areas under a unified water supply system. It ensures reliable water access to marginalized
+                            villages, empowering agriculture, hygiene, and community resilience in drought-prone zones
+                            of rural Pune.
+
+                        </p>
+                        <a href="#"> <button class="card-button">Read More</button></a>
+                    </div>
+                </div>
+                <div class="card-box" data-category="water">
+                    <img class="image-adjust" src="img/Water Supply & Water Projects.jpg" alt="">
+                    <div class="partition">
+                        <h2 class="hov-bx-h2-tg">Regional Water Scheme for 29 Sangli Villages</h2>
+                        <h3 class="hov-bx-h3-tg">Tapping MI tanks to power rural water needs</h3>
+                        <p class="hov-bx-p-tg">Valued at ₹86.86 Cr, this project sources water from Birnal and Sanmadi
+                            tanks to benefit 29 Jat Taluka villages. Executed by MJP, it ensures sustainable water
+                            supply, especially in water-stressed zones, while aligning with Jal Jeevan Mission goals.
+                        </p>
+                        <a href="#"> <button class="card-button">Read More</button></a>
+                    </div>
+                </div>
+                <div class="card-box" data-category="water">
+                    <img class="image-adjust" src="img/" alt="">
+                    <div class="partition">
+                        <h2 class="hov-bx-h2-tg">Shirol Taluka’s Urban Water Supply Network</h2>
+                        <h3 class="hov-bx-h3-tg">Addressing Kolhapur’s semi-urban hydration infrastructure</h3>
+                        <p class="hov-bx-p-tg">This ₹26.94 Cr project by Shirol Municipal Council modernizes local water
+                            distribution systems. It ensures equitable access, strengthens community well-being, and
+                            supports population growth in Kolhapur’s suburban landscape through planned water utility
+                            improvements.</p>
+                        <a href="#"> <button class="card-button">Read More</button></a>
+                    </div>
+                </div>
+                <div class="card-box" data-category="water">
+                    <img class="image-adjust" src="img/" alt="">
+                    <div class="partition">
+                        <h2 class="hov-bx-h2-tg">18-Village & Chimbali Water Supply Network, Pune</h2>
+                        <h3 class="hov-bx-h3-tg">Group tender for integrated water services in industrial belts</h3>
+                        <p class="hov-bx-p-tg">MJP’s ₹152.47 Cr initiative covers Chakan’s industrial belt and Chimbali
+                            via two major water supply systems. It addresses rapid urbanization near Pune, ensuring
+                            clean water availability for residents and workers in fast-growing semi-urban areas.</p>
+                        <a href="#"> <button class="card-button">Read More</button></a>
+                    </div>
+                </div>
+                <div class="card-box" data-category="water">
+                    <img class="image-adjust" src="img/" alt="">
+                    <div class="partition">
+                        <h2 class="hov-bx-h2-tg">Urban Water and Waste Management in Rajasthan</h2>
+                        <h3 class="hov-bx-h3-tg">Comprehensive infrastructure for Dungarpur and Sagwara towns</h3>
+                        <p class="hov-bx-p-tg">With ₹325.93 Cr investment, this RUIDP project ensures clean drinking
+                            water and effective wastewater disposal. It enhances living standards and sustainability in
+                            Rajasthan’s secondary towns by combining water supply and sewage systems under a single
+                            urban development vision.
+
+                        </p>
+                        <a href="#"> <button class="card-button">Read More</button></a>
+                    </div>
+                </div>
+                <div class="card-box" data-category="water">
+                    <img class=" image-adjust" src="img/Water Supply & Water Projects.jpg" alt="">
+                    <div class="partition">
+                        <h2 class="hov-bx-h2-tg">Jal Jeevan Scheme for Shirpur & 12 Villages</h2>
+                        <h3 class="hov-bx-h3-tg">Decentralized rural water supply solution in Akola District</h3>
+                        <p class="hov-bx-p-tg">This ₹17.13 Cr initiative brings potable water to remote villages in
+                            Patur Taluka. It supports the Jal Jeevan Mission’s aim to provide tap water to every home
+                            and strengthens public health and hygiene at the grassroots level.</p>
+                        <a href="#"> <button class="card-button">Read More</button></a>
+                    </div>
+                </div>
+                <div class="card-box" data-category="water">
+                    <img class="image-adjust" src="img/Water Supply & Water Projects.jpg" alt="">
+                    <div class="partition">
+                        <h2 class="hov-bx-h2-tg">Manmad Suvarna Jayanti Water Supply Scheme</h2>
+                        <h3 class="hov-bx-h3-tg">State-supported hydration drive for Manmad & route villages</h3>
+                        <p class="hov-bx-p-tg">Under Maharashtra’s Suvarna Jayanti Abhiyan, this water project supports
+                            Manmad and surrounding Nandgaon villages. It ensures reliable supply infrastructure,
+                            essential for health and agricultural resilience in semi-urban Nashik zones.</p>
+                        <a href="#"> <button class="card-button">Read More</button></a>
+                    </div>
+                </div>
+                <div class="card-box" data-category="water">
+                    <img class="image-adjust" src="img/khamgaon-bot-big (2).jpg" alt="">
+                    <div class="partition">
+                        <h2 class="hov-bx-h2-tg">Ray Nagar Mega Infra: Water, Roads, and Drainage</h2>
+                        <h3 class="hov-bx-h3-tg">Integrated development for 30,000 homes in South Solapur</h3>
+                        <p class="hov-bx-p-tg">This ₹94.78 Cr MJP Solapur project includes water, sewerage, stormwater
+                            drains, and roads for Ray Nagar housing. It transforms the urban ecosystem by delivering
+                            essential civic infrastructure to thousands of residents, contributing to Solapur’s planned
+                            city growth.
+
+                        </p>
+                        <a href="#"> <button class="card-button">Read More</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FOTTER CODE STARTS -->
+
+    <!-- FOTTER CODE ENDS  -->
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+<!-- <script>
+    const obj = document.querySelectorAll('#ab-sd-tx-htg');
+    const obj1 = document.querySelectorAll('.projects-container');
+
+    const ob = new IntersectionObserver(entries => {
+        entries.forEach(entries => {
+            if (entries.isIntersecting) {
+                entries.target.classList.add('show');
+            }
+        });
+    }, { threshold: 0.5 });
+    obj.forEach(text => ob.observe(text));
+    obj1.forEach(text => ob.observe(text));
+
+</script> -->
+<script>
+    window.onload = function () {
+        let currentSlide = 0;
+        const textSlides = document.querySelectorAll(".text-slide");
+        const textSlider = document.querySelector("#textSlider");
+        const carouselElement = document.querySelector("#fadeCarousel");
+        const carousel = new bootstrap.Carousel(carouselElement, {
+            interval: 5200, // Ensure sync with text slider
+            ride: "carousel",
+            pause: false // 
+        });
+
+        let slideInterval;
+
+        function changeSlide(index) {
+            textSlides[currentSlide].classList.remove("active");
+            textSlides[index].classList.add("active");
+            currentSlide = index;
+        }
+
+        function autoSlide() {
+            let nextSlide = (currentSlide + 1) % textSlides.length;
+            changeSlide(nextSlide);
+        }
+
+        function startAutoSlide() {
+            slideInterval = setInterval(autoSlide, 5300);
+        }
+
+        function stopAutoSlide() {
+            clearInterval(slideInterval);
+        }
+
+        // Start synchronized auto-slide
+        startAutoSlide();
+
+
+        carouselElement.addEventListener("mouseenter", function () {
+            carousel.cycle(); // Keep carousel running
+        });
+
+
+        textSlider.addEventListener("mouseenter", stopAutoSlide);
+        textSlider.addEventListener("mouseleave", startAutoSlide);
+    };
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+</html>
