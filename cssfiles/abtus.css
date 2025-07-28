@@ -194,11 +194,19 @@ body {
     transition: 0.9s;
     transform: scale(1.02); 
 }
-
+#fadeCarousel{
+    margin: 6.4% 0 0 0;
+}
 .project-pane {
     display: flex;
     height: 100%;
     width: 100%;
+}
+
+.fl-heads {
+    font-family: "Kumbh sans";
+    font-weight: 500;
+    font-size: 20px;
 }
 
 .filters {
@@ -235,17 +243,14 @@ body {
 
 }
 
-
-.filter-buttons.show button{
-    opacity: 1;
-      transform: translateY(0);
-
+.bt-p-a{
+    text-decoration: none;
+    color: inherit;
 }
-
-
 
 .bt-p.active::after {
     content: "";
+    padding: 0 0% 0 0;
     border-bottom: 2px solid black;
     transition: width 1s;
 }
@@ -258,8 +263,13 @@ body {
 #card-Container {
     height: 100%;
     width: 100%;
+
 }
 
+.marjorcards {
+    height: 100%;
+    width: 100%;
+}
 /* cards  */
 .card-box {
     display: flex;
